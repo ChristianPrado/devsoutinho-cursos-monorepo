@@ -39,6 +39,16 @@ function commonPackage(plop: NodePlopAPI) {
         ),
         templateFile: "templates/common-package/eslint.config.mjs.hbs",
       },
+      {
+        type: "add",
+        path: resolve(
+          ROOT_MONOREPO,
+          "commons",
+          "{{lowerCase packageName}}",
+          "jest.config.ts"
+        ),
+        templateFile: "templates/common-package/jest.config.ts.hbs",
+      },
     ],
   });
 }
