@@ -1,0 +1,25 @@
+{
+  "name": "company-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "lint": "eslint \"./**/*.{js,mjs,cjs,ts,jsx,tsx}\"",
+    "dev": "nodemon index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@devsoutinho/commons-http-client": "*"
+  },
+  "devDependencies": {
+    "@devsoutinho/commons-lint": "*",
+    "@types/node": "^22.7.8",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}

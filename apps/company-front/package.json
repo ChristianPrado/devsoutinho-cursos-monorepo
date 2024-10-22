@@ -1,0 +1,26 @@
+{
+  "name": "company-front",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "lint": "eslint \"./**/*.{js,mjs,cjs,ts,jsx,tsx}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@devsoutinho/commons-http-client": "*",
+    "next": "^15.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@devsoutinho/commons-lint": "*",
+    "@types/node": "^22.7.8",
+    "@types/react": "^18.3.11",
+    "typescript": "^5.6.3"
+  }
+}
