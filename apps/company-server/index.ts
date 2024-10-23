@@ -1,5 +1,6 @@
+import http from "node:http";
+
 import { httpClient } from "@devsoutinho/commons-http-client";
-import http from "http";
 
 http
   .createServer(async (_, res) => {
